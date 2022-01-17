@@ -1,4 +1,3 @@
-;Crea un programa en ensamblador que imprima "Me gusta el ensamblador". Usa las llamadas al sistema write y exit. 
 SECTION .data
 msg     db      'Me gusta ensamblador', 0Ah
 
@@ -7,7 +6,7 @@ global  _start
 
 _start: 
 
-    mov     edx, 13
+    mov     edx, 20
     mov     ecx, msg
     mov     ebx, 1
     mov     eax, 4

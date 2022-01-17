@@ -1,7 +1,6 @@
-;Crea un programa en ensamblador que sume los números del 1 al 9. El resultado se almacenará en el registro eax.	
 		global	_start
 		section .data
-total	dd 10
+total	dd 9
 
 		section .text
 _start:	xor eax, eax		
